@@ -1,5 +1,11 @@
 <br>
 
+Exploring and understanding GitHub's code spaces.
+
+<br>
+
+### Development Notes
+
 **Requirements**
 
 ```bash
