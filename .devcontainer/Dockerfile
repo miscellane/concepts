@@ -22,7 +22,7 @@ RUN pip3 --disable-pip-version-check --no-cache-dir install -r /tmp/app/requirem
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
   && apt-get -y install python3-dev graphviz libgraphviz-dev pkg-config
-RUN pip3 --disable-pip-version-check --no-cache-dir install pygraphviz
+RUN pip3 install graphviz
 
 
 # [Optional] Uncomment this section to install additional OS packages.
