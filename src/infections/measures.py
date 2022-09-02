@@ -1,3 +1,6 @@
+"""
+Module: measures
+"""
 import collections
 import json
 import requests
@@ -9,6 +12,9 @@ import pandas as pd
 
 
 class Measures:
+    """
+    Reads measures at api.coronavirus.data.gov.uk/vi/data
+    """
 
     def __init__(self, fields: dict, path: str):
         """
