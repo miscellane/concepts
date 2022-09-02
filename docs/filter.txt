@@ -1,0 +1,11 @@
+dask
+pandas
+pytest
+coverage
+pytest-cov
+pylint
+flake8
+jupyterlab
+numpy
+matplotlib
+scipy
