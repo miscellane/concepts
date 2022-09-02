@@ -1,9 +1,17 @@
+"""
+Module: main
+"""
 import logging
 import os
 import sys
 
 
 def main():
+    """
+    Previews the LTLA & NHS Trust Codes
+
+    :return:
+    """
 
     logger.info('concepts')
 
