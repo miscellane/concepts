@@ -50,7 +50,7 @@ class Config:
     @staticmethod
     def trusts():
 
-        uri = os.path.join('data', 'catchments', '2021 Trust Catchment Populations_Supplementary Trust Area lookup.xlsx')
+        uri = os.path.join('data', 'catchments', '2021_trust_catchment_populations_trust_area_lookup.xlsx')
         sheet_name = 'Trust Area Lookup'
         rename = {'TrustCode': 'trust_code', 'TrustName': 'trust_name'}
 
