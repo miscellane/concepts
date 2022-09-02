@@ -1,6 +1,5 @@
 """
-Systematically reads UK SARS-CoV-2 data from coronavirus.data.gov.uk via its API
-
+Module: interface
 """
 
 import collections
@@ -11,6 +10,11 @@ import time
 
 
 def main():
+    """
+    Systematically reads UK SARS-CoV-2 data from coronavirus.data.gov.uk via its API
+
+    :return:
+    """
 
     # Lower Tier Local Authority Level Measures
     measures = src.infections.measures.Measures(fields=LTLA, path=os.path.join('ltla', 'measures')) \
