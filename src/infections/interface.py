@@ -17,13 +17,13 @@ def main():
     """
 
     # Lower Tier Local Authority Level Measures
-    measures = src.infections.measures.Measures(fields=LTLA, path=os.path.join('ltla', 'measures')) \
+    measures = src.infections.measures.Measures(fields=LTLA, path='ltla') \
         .exc(area_codes=ltla_, area_type='ltla')
     logger.info(measures)
     time.sleep(60)
 
     # trust Level measures
-    measures = src.infections.measures.Measures(fields=TRUSTS, path=os.path.join('trusts', 'measures')) \
+    measures = src.infections.measures.Measures(fields=TRUSTS, path='trusts') \
         .exc(area_codes=trusts_, area_type='nhsTrust')
     logger.info(measures)
 
