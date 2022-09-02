@@ -19,11 +19,11 @@ def main():
 
     # frame: msoa, ltla
     ltla = configurations.ltla()
-    logger.info(ltla.ltla.unique()[:5])
+    logger.info(ltla.ltla.unique())
 
     # frame: trust_code, trust_name
     trusts = configurations.trusts()
-    logger.info(trusts.trust_code.unique()[:5])
+    logger.info(trusts.trust_code.unique())
 
 
 if __name__ == '__main__':
