@@ -1,14 +1,14 @@
-dask==2022.5.0
-pandas==1.4.2
-pytest==7.1.2
-coverage==6.3.2
-pytest-cov==3.0.0
-pylint==2.12.2
-flake8==4.0.1
-jupyterlab==3.3.2
-numpy==1.22.3
-matplotlib==3.5.1
-scipy==1.7.3
+dask>=2022.5.0
+pandas
+pytest
+coverage
+pytest-cov
+pylint
+flake8
+jupyterlab
+numpy>=1.22.3
+matplotlib>=3.5.1
+scipy
 # Supplements:
-openpyxl==3.0.9
-requests==2.27.1
+openpyxl
+requests
